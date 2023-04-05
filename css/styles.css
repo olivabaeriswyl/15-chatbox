@@ -3,8 +3,8 @@ body {
   margin: auto;
   font-size: 14px;
   color: aliceblue;
-  font-family: sans-serif;
-  background: linear-gradient(#1b2020, #0E0E11, #1b2020, #0E0E11);
+  font-family: 'Montserrat', sans-serif;
+  background: linear-gradient(#333c3c, #0E0E11, #383f3f, #0E0E11);
 }
 
 img {
@@ -15,6 +15,7 @@ img {
 header {
   position: sticky;
   top: 0;
+  font-family: 'Kanit', sans-serif;
 }
 
 header p {
@@ -22,7 +23,7 @@ header p {
 }
 
 header .legende {
-  margin-left: 40px;
+  margin-left: 50px;
 }
 
 .date {
@@ -30,8 +31,6 @@ header .legende {
   font-size: 10px;
   color: #cce3ed;
 }
-
-/*comment faire pour que le background soit collé au texte*/
 
 .profil {
   display: flex;
