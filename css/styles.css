@@ -17,10 +17,18 @@ header {
   top: 0;
 }
 
+header p {
+  color: #a8cddd;
+}
+
+header .legende {
+  margin-left: 40px;
+}
+
 .date {
   text-align: center;
   font-size: 10px;
-  background: #1b2020;
+  color: #cce3ed;
 }
 
 /*comment faire pour que le background soit collé au texte*/
@@ -35,8 +43,16 @@ header {
 }
 
 .profil-element {
+  margin-left: 6px;
+}
+
+header img {
   width: 40px;
   height: 40px;
+}
+
+.go-back, header h1, button, .gif {
+  cursor: pointer;
 }
 
 .legende {
@@ -70,6 +86,10 @@ main {
 
 .message-box-me .legende {
   color: #91b9bb;
+}
+
+.gif {
+  max-width: 45%;
 }
 
 footer {
