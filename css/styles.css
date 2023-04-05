@@ -5,6 +5,7 @@ body {
   color: aliceblue;
   font-family: 'Montserrat', sans-serif;
   background: linear-gradient(#333c3c, #0E0E11, #383f3f, #0E0E11);
+  background: url(../img/glitch-background.jpg);
 }
 
 img {
